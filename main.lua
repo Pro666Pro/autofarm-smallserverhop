@@ -34,7 +34,7 @@ firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 1)
                 end
 
 for i,v in pairs(game.Workspace:GetChildren()) do
-                    if v.Name == "JetOrb" or v.Name == "PhaseOrb" or v.Name == "GlitchOrb" then
+                    if v.Name == "JetOrb" or v.Name == "PhaseOrb" or v.Name == "GlitchOrb" or v.Name == "HonorOrb" then
 firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 0)
 firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 1)
                     end
